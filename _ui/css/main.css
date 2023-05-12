@@ -1,0 +1,6 @@
+.grid-wrap{margin-top:40px; overflow:hidden;}
+.grid-wrap ul{display: flex; flex-wrap: wrap; justify-content: space-between;}
+.grid-wrap ul li{width:calc(25% - 30px); margin-bottom:30px; cursor: pointer;}
+.grid-item .image-wrap{background:#ccc; overflow:hidden; border-radius:10px;}
+.grid-item .image-wrap img{width:100%; object-fit: cover;}
+.grid-item .title{padding-top:10px; text-overflow: ellipsis; white-space: nowrap; overflow: hidden;}
