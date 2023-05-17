@@ -1,6 +1,28 @@
+/*main list*/
 .grid-wrap{margin-top:40px; overflow:hidden;}
 .grid-wrap ul{display: flex; flex-wrap: wrap; justify-content: space-between;}
 .grid-wrap ul li{width:calc(25% - 30px); margin-bottom:30px; cursor: pointer;}
 .grid-item .image-wrap{background:#ccc; overflow:hidden; border-radius:10px;}
 .grid-item .image-wrap img{width:100%; object-fit: cover;}
 .grid-item .title{padding-top:10px; text-overflow: ellipsis; white-space: nowrap; overflow: hidden;}
+
+/*detail*/
+.detail-wrapper{margin-top:70px;}
+.detail-wrapper .title{width:100%; max-width:600px; margin:0 auto; font-size:38px; font-weight: bold; text-align: center; line-height:1.2em; margin-bottom:50px;}
+.detail-wrapper .info-box{display:flex; justify-content: space-between; align-items: center; padding:20px 0;}
+.profile-area{display:flex; align-items: center;}
+.profile-area .profile-ico{display:block; width:30px; height:30px; background:#ccc; overflow:hidden; border-radius:15px;}
+.profile-area .nickname{margin-left:7px;}
+.utility-area{position:relative;}
+.utility-area .u-ico{display:block; width:30px; height:30px; background:#ccc; cursor: pointer;}
+.utility-area .utility-pop{width:100px; height:auto; position:absolute; top:20px; right:10px; background:#fff; border:1px solid #555; border-radius:5px; padding:10px;}
+.utility-area .utility-pop ul li{padding:10px 0; text-align:center; border-top:1px solid #ccc; cursor: pointer;}
+.utility-area .utility-pop ul li:first-child{border:0;}
+.image-box{padding:20px 0;}
+.image-box .image-inner{text-align: center; background:#e3e3e3;}
+.image-box .image-inner img{object-fit: cover; height:400px;}
+
+/*Mobile*/
+@media only screen and (max-width: 768px) {
+    .grid-wrap ul li{width:calc(50% - 5px);}
+}
