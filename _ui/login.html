@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>블로그</title>
+    <link rel="stylesheet" href="/_ui/css/common.css">
+    <link rel="stylesheet" href="/_ui/css/main.css">
+</head>
+<body>
+    <header id="header">
+        <nav class="nav">
+            <h1 class="logo">logo</h1>
+            <div class="searchBar"> <!-- 모바일에서 검색아이콘클릭시 : 클래스 on 을 추가하면 인풋박스 열림-->
+                <input type="text" name="sch" id="searchBox">
+                <button class="searchBtn gr-btn">검색</button>
+            </div>
+            <div class="util">
+                <span class="login">로그인</span><!-- 로그아웃 -->
+                <span class="join">회원가입</span><!-- 글쓰기 -->
+            </div>
+        </nav>
+    </header>
+    <div class="container-wrapper">
+        <main class="container">
+            <div class="lj-wrapper">
+                <h2 class="title">LOGIN</h2>
+                <form action="">
+                    <div class="login-area">
+                        <div class="id-section">
+                            <label for="loginId">ID</label>
+                            <input class="txit-input" type="text" name="loginId" id="loginId" placeholder="아이디를 입력하세요">
+                        </div>
+                        <div class="pw-section">
+                            <label for="loginPw">PW</label>
+                            <input class="txit-input" type="text" name="loginPw" id="loginPw" placeholder="패스워드를 입력하세요">
+                            <p class="info-txt red">아이디 또는 패스워드를 확인하세요</p>
+                        </div>
+                    </div>
+                </form>
+                <button class="gr-btn">로그인</button>
+                <div class="join-info-box">
+                    <p>계정이 없으신가요? <a href="javascript:void(0);">회원가입</a> 후 로그인</p>
+                </div>
+            </div>
+        </main>
+    </div>
+    <footer id="footer">
+    </footer>
+</body>
+</html>
